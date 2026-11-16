@@ -187,6 +187,10 @@ post, and for following the terms of the sites you fetch from and post to.
 [MIT](LICENSE). Caption fonts in `studio/fonts/` (Anton, Archivo Black, Poppins) are under the SIL Open Font
 License; the licence texts are in the same folder.
 
+## Video shape and captions
+
+Before making clips you can pick the **video shape** (9:16 for Shorts/Reels/TikTok, 4:5 for the Instagram feed, 1:1 square, 16:9 landscape) and the caption style, including **No captions**. Both can also be changed per clip in the clip editor, then press "Save and re-make clip".
+
 ## Windows exe
 
 Double-click `build_windows.bat` (needs Python 3.10+). It makes `dist\TheMClipping\TheMClipping.exe` with ffmpeg and the speech model already inside. Zip that folder to share it: unzip, double-click, done. No Windows PC? Push this project to GitHub and run the **Build Windows exe** action; it produces `TheMClipping-windows.zip`.
